@@ -46,8 +46,13 @@ function App() {
 
   return (
 
+   
+
     // Example 1 and 3
     <>
+
+
+
       <div>
         <button onClick={() => setResourceType('posts')}>Post</button>
         <button onClick={() => setResourceType('users')}>User</button>
