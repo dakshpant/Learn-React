@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+    margin: 200px;
+}
+ul button{
+    border: 1px solid black;
+    background:white;
+    font-size: 30px;
+    padding: 10px;
+    margin: 10px;
+}
+ul button:hover{
+    background-color: antiquewhite;
+}
