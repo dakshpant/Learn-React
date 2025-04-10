@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+    --color-mainGreen: #5eb1aa; 
+    --color-textGreen: #1f5354;
+    --color-btnHoverTextGreen : #438d7f;
+    --color-btnTextGreen : #edfcfb;
+    --color-btnBgGreen : #aed8d7 ;
+    --color-formInputColor: #cbe5e3;
+    --color-formInputTextColor: #245954;
+    --color-tncColor: #306c66;
+    --color-calcColor: #6b918c,
+  }
+
+  
