@@ -115,7 +115,7 @@ function App() {
             () => {
               setFiltered(!filtered)
               setMapped(false)
-             console.log('jo gaya h');
+              console.log('jo gaya h');
               setReduced(false)
             }
           }

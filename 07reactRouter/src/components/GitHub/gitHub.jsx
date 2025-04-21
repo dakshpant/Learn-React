@@ -27,7 +27,7 @@ export default Github
 
 export const gitHubInfoLoader = async () => {
 
-  const  response = await fetch('https://api.github.com/users/dakshpant')
+  const  response = await fetch('https://api.github.com/users/bradtraversy')
   return response.json(); 
 
 }

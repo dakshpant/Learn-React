@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import { useCallback, useState } from 'react'
 import ChildComponent from './components/childComponent'
 function App() {
@@ -13,18 +14,25 @@ function App() {
 
     const [count, setCount] = useState(0)
 
-    const handelClick = useCallback(() => {
-      setCount(count + 1)
-    },[count])  
+    const handelClick = useCallback(()=>{
+      setCount(count+1)
+    }
+  ,[])
 
   return (
     <>
-    <h1>count :{count}</h1>
-    <button onClick={handelClick}>Increment</button>
+    <h1>
+      count :{count}
+      </h1>
+    <button 
+    onClick={handelClick}>
+      Increment
+      </button>
+
     <br /><br />
     <div>
       <ChildComponent
-       buttonName="Click Me"
+       btnName="Click Me"
        handelClick={handelClick} 
        />
     </div>
@@ -36,9 +44,9 @@ function App() {
 export default App
 
 /* 
-useMemo only momoizes tehresult i.e the return value of a function 
+useMemo only momoizes the result i.e the return value of a function 
 whereAs;
 the useCallback hook momoizes the function itself
 
-both the useMomo & callbacl hook stores the value as a cache and uses when needed 
+both the useMomo & callback hook stores the value as a cache and uses when needed 
 */
